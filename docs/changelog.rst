@@ -10,6 +10,11 @@ To update |kitty|, :doc:`follow the instructions <binary>`.
 - A new :doc:`themes kitten </kittens/themes>` to easily change kitty themes.
   Choose from over two hundred themes in the kitty themes repository
 
+- Integrate kitty closely with common shells such as zsh, fish and bash.
+  This allows lots of niceties such as jumping to previous prompts, opening the
+  output of the last command in a new window, etc. See :ref:`shell_integration`
+  for details.
+
 - A new style for the tab bar that makes tabs looks like the tabs in a physical
   tabbed file, see :opt:`tab_bar_style`
 
@@ -72,11 +77,6 @@ To update |kitty|, :doc:`follow the instructions <binary>`.
 
 0.22.0 [2021-07-26]
 ----------------------
-
-- Integrate kitty closely with common shells such as zsh, fish and bash.
-  This allows lots of niceties such as jumping to previous prompts, opening the
-  output of the last command in a new window, etc. See :ref:`shell_integration`
-  for details.
 
 - Add a new :ref:`action-toggle_layout` action to easily zoom/unzoom a window
 
